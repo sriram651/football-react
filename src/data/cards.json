@@ -1,0 +1,164 @@
+{
+  "players": [
+    {
+      "name": "Cristiano Ronaldo",
+      "image": "https://images2.minutemediacdn.com/image/fetch/https%3A%2F%2Ftherealchamps.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F962792890.jpeg",
+      "position": "LW",
+      "team": "Al Nassr",
+      "league": "Saudi Pro League",
+      "goals": 850
+    },
+    {
+      "name": "Lionel Messi",
+      "image": "https://library.sportingnews.com/styles/crop_style_16_9_mobile_2x/s3/2023-06/Messi_Miami_FTR_2.png?h=8bbf2749&itok=hFu-Cobm",
+      "position": "RW",
+      "team": "Inter Miami",
+      "league": "Major League Soccer",
+      "goals": 820
+    },
+    {
+      "name": "Neymar Jr",
+      "image": "https://talksport.com/wp-content/uploads/sites/5/2019/02/Neymar.jpg",
+      "position": "LW",
+      "team": "PSG",
+      "league": "Ligue 1",
+      "goals": 400
+    },
+    {
+      "name": "Karim Benzema",
+      "image": "https://i.guim.co.uk/img/media/87d567aa2fb5072f8db4181ba46748275d6e161d/145_329_3124_1874/master/3124.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=61eb67ea166f9daedd7cdea9defe8614",
+      "position": "ST",
+      "team": "Al Ittihad",
+      "league": "Saudi Pro League",
+      "goals": 450
+    },
+    {
+      "name": "Luka Modric",
+      "image": "https://ronaldo.com/wp-content/uploads/2018/12/GettyImages-1073784188.jpg",
+      "position": "CM",
+      "team": "Real Madrid",
+      "league": "La Liga",
+      "goals": 150
+    },
+    {
+      "name": "Kylian Mbappe",
+      "image": "https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk4NjM3ODQ0NzYyMjA4MDA3/mbappe-kylian-real.jpg",
+      "position": "ST",
+      "team": "PSG",
+      "league": "Ligue 1",
+      "goals": 200
+    },
+    {
+      "name": "Erling Haaland",
+      "image": "https://i.guim.co.uk/img/media/738ce55b0210242ed89525dc7217389fcdd954f6/867_295_3097_1858/master/3097.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=93c023f0b3182e74b5320381712d32d3",
+      "position": "ST",
+      "team": "Manchester City",
+      "league": "Premier League",
+      "goals": 200
+    },
+    {
+      "name": "Vinicius Jr",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article26300657.ece/ALTERNATES/s1200c/0_Vinicius-Junior.jpg",
+      "position": "LW",
+      "team": "Real Madrid",
+      "league": "La Liga",
+      "goals": 100
+    },
+    {
+      "name": "Toni Kroos",
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4092,h_2301,x_0,y_135/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/90min_en_international_web/01gyfmv1a842zcknyxqy.jpg",
+      "position": "CM",
+      "team": "Real Madrid",
+      "league": "La Liga",
+      "goals": 200
+    },
+    {
+      "name": "Zinedine Zidane",
+      "image": "https://icdn.football-espana.net/wp-content/uploads/2020/04/zinedine-zidane-455.jpg",
+      "position": "CM",
+      "team": "Real Madrid",
+      "league": "La Liga",
+      "goals": 200
+    },
+    {
+      "name": "Raphael Varane",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article24681570.ece/ALTERNATES/s1200c/0_GettyImages-1412024457.jpg",
+      "position": "CB",
+      "team": "Manchester United",
+      "league": "Premier League",
+      "goals": 35
+    },
+    {
+      "name": "Robert Lewandowski",
+      "image": "https://static.independent.co.uk/2023/02/19/23/19-f20cd96108014a039a5fe19f17ddbb0a.jpg",
+      "position": "ST",
+      "team": "FC Barcelona",
+      "league": "La Liga",
+      "goals": 300
+    },
+    {
+      "name": "Zlatan Ibrahimovic",
+      "image": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltc85f6ecb192fcffd/61878995637e8510120a11c7/28bb4f02de23a4356d60783efd080a67a1be4c79.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "position": "ST",
+      "team": "AC Milan",
+      "league": "Serie A",
+      "goals": 400
+    },
+    {
+      "name": "Iker Casillas",
+      "image": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf1c556036727164b/60dba752467112384c7b5716/0268582d4bd91882bf69f6b73f36a49cea5ead99.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "position": "GK",
+      "team": "FC Porto",
+      "league": "Liga Portuguese",
+      "goals": 0
+    },
+    {
+      "name": "Paul Pogba",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/160728123005-pogba-tease.jpg?q=w_2421,h_3000,x_0,y_0,c_fill",
+      "position": "CM",
+      "team": "Juventus FC",
+      "league": "Serie A",
+      "goals": 120
+    },
+    {
+      "name": "Manuel Neuer",
+      "image": "https://cdn.vox-cdn.com/thumbor/78LauBbEtSFHEFSX66bJj9PIUug=/314x0:3656x1688/1200x800/filters:focal(1288x120:1872x704)/cdn.vox-cdn.com/uploads/chorus_image/image/71940375/1440066059.0.jpg",
+      "position": "GK",
+      "team": "FC Bayren Munich",
+      "league": "Bundesliga",
+      "goals": 0
+    },
+    {
+      "name": "Thomas Muller",
+      "image": "https://pbs.twimg.com/media/FquwlXxWAAYbsRQ.jpg:large",
+      "position": "CAM",
+      "team": "FC Bayren Munich",
+      "league": "Bundesliga",
+      "goals": 200
+    },
+    {
+      "name": "Romelu Lukaku",
+      "image": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt800b4af7967f619c/645b894d0424d52959833f27/Disseny_sense_t%C3%ADtol_(60).png?auto=webp&format=pjpg&width=3840&quality=60",
+      "position": "ST",
+      "team": "Inter Milan",
+      "league": "Serie A",
+      "goals": 250
+    },
+    {
+      "name": "Sergio Ramos",
+      "image": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf99536efb33820c6/647ba9bde7d93c1b0b3439ea/Sergio_Ramos_PSG_2022-23_(3).jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "position": "CB",
+      "team": "PSG",
+      "league": "Ligue 1",
+      "goals": 100
+    },
+    {
+      "name": "N'Golo Kanté",
+      "image": "https://breakingthelines.com/wp-content/uploads/2018/07/IMG_20180716_131704-1.jpg",
+      "position": "CM",
+      "team": "Al Ittihad",
+      "league": "Saudi Pro League",
+      "goals": 40
+    }
+  ]
+}
