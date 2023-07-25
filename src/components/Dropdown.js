@@ -7,34 +7,43 @@ import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
 //     ChevronRightIcon,
 // } from '@radix-ui/react-icons';
 
-const DropdownMenuDemo = (props) => {
-    // const [bookmarksChecked, setBookmarksChecked] = React.useState(true);
-    // const [urlsChecked, setUrlsChecked] = React.useState(false);
-    // const [person, setPerson] = React.useState('pedro');
+const DropdownMenuDemo = ({ teams, filterTeams, setFilterTeams }) => {
+  // const [bookmarksChecked, setBookmarksChecked] = React.useState(true);
+  // const [urlsChecked, setUrlsChecked] = React.useState(false);
+  // const [person, setPerson] = React.useState('pedro');
 
-    return (
-        <DropdownMenu.Root>
-            <DropdownMenu.Trigger asChild>
-                <button
-                    className="rounded-lg w-fit h-[35px] py-2 px-4 inline-flex items-center justify-center text-violet11 bg-white shadow-[0_2px_10px] shadow-blackA7 outline-none hover:bg-violet3 focus:shadow-[0_0_0_2px] focus:shadow-black"
-                    aria-label="Customise options"
-                >
-                    {/* <HamburgerMenuIcon /> */}
-                    <span>Filter</span>
-                </button>
-            </DropdownMenu.Trigger>
+  function handleSelect(team) {
+    console.log(team);
+    if (!filterTeams?.includes(team)) {
+      setFilterTeams((previous) => {
+        return [...previous, team]
+      })
+    }
+  }
 
-            <DropdownMenu.Portal>
-                <DropdownMenu.Content
-                    className="min-w-[220px] bg-white rounded-md p-[5px] shadow-[0px_10px_38px_-10px_rgba(22,_23,_24,_0.35),_0px_10px_20px_-15px_rgba(22,_23,_24,_0.2)] will-change-[opacity,transform] data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade"
-                    sideOffset={5}
-                >
-                    {props?.teams?.map((team, key) => (
-                        <DropdownMenu.Item key={key} className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1">
-                            {team}
-                        </DropdownMenu.Item>
-                    ))}
-                    {/* <DropdownMenu.Item className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1">
+  return (
+    <DropdownMenu.Root>
+      <DropdownMenu.Trigger asChild>
+        <button
+          className="rounded-lg w-fit h-[35px] py-2 px-4 inline-flex items-center justify-center text-violet11 bg-white shadow-[0_2px_10px] shadow-blackA7 outline-none hover:bg-violet3 focus:shadow-[0_0_0_2px] focus:shadow-black"
+          aria-label="Customise options"
+        >
+          {/* <HamburgerMenuIcon /> */}
+          <span>Filter</span>
+        </button>
+      </DropdownMenu.Trigger>
+
+      <DropdownMenu.Portal>
+        <DropdownMenu.Content
+          className="min-w-[220px] bg-white rounded-md p-[5px] shadow-[0px_10px_38px_-10px_rgba(22,_23,_24,_0.35),_0px_10px_20px_-15px_rgba(22,_23,_24,_0.2)] will-change-[opacity,transform] data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade"
+          sideOffset={5}
+        >
+          {teams?.map((team, key) => (
+            <DropdownMenu.Item onSelect={() => handleSelect(team)} key={key} className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1">
+              {team}
+            </DropdownMenu.Item>
+          ))}
+          {/* <DropdownMenu.Item className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1">
                         Real Madrid
                     </DropdownMenu.Item>
                     <DropdownMenu.Item className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1">
@@ -64,7 +73,7 @@ const DropdownMenuDemo = (props) => {
                     <DropdownMenu.Item className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1">
                         FC Bayern Munich
                     </DropdownMenu.Item> */}
-                    {/* <DropdownMenu.Item className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1">
+          {/* <DropdownMenu.Item className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1">
             New Tab{' '}
             <div className="ml-auto pl-[20px] text-mauve11 group-data-[highlighted]:text-white group-data-[disabled]:text-mauve8">
               ⌘+T
@@ -171,10 +180,10 @@ const DropdownMenuDemo = (props) => {
           </DropdownMenu.RadioGroup>
 
           <DropdownMenu.Arrow className="fill-white" /> */}
-                </DropdownMenu.Content>
-            </DropdownMenu.Portal>
-        </DropdownMenu.Root>
-    );
+        </DropdownMenu.Content>
+      </DropdownMenu.Portal>
+    </DropdownMenu.Root>
+  );
 };
 
 export default DropdownMenuDemo;
